@@ -43,3 +43,22 @@ header nav {
 header nav ul li {
         display: inline;
     }
+/* styles to <header> end*/
+
+
+
+
+
+/*Contact Info Start*/
+
+.contact-info ul li a {
+    text-decoration: none;
+    color: #39a6b2;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.contact-info ul li {
+    display: inline;
+}

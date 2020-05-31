@@ -136,12 +136,33 @@ header nav ul li a {
         border: 3px solid #39a6b2;
         grid-column:span 8;
         grid-row: span 2;
+        background-image: url("../images/runbuddy.jpg");
+        background-size: cover;
     }
+
+.main-grid-item button {
+        color: #3A3D46;
+        background-color: #39a6b2;
+        border: solid;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
 .grid-item{
         grid-column: span 4;
         border: 3px solid #39a6b2;
+        display:flex;
+        align-items: center;
+        justify-content: center;
     }
 
+.grid-item img {
+    object-fit: cover;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
 /*styles to <work> ends*/
 
 /*styles to <contact-info> start*/

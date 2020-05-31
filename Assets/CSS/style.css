@@ -86,7 +86,8 @@ header nav ul li a {
 
 /*styles to <background> start*/
 .background {
-        background: #c7d5d6
+        background: #c7d5d6;
+        height: 1000px;
     }
 /*styles to <background> end*/
 
@@ -124,11 +125,11 @@ header nav ul li a {
         text-align: left;
         font-size: 45px;
         margin-bottom: 35px;
-        padding: 25px 25px 25px 47px;
+        padding: 25px 25px 25px 42px;
         border-right: 3px solid;
         float:left;
         border-color: #3A3D46;
-        line-height: 1.2;
+        line-height: 10;
     }
 
 .grid {
@@ -147,6 +148,12 @@ header nav ul li a {
         background-size: cover;
     }
 
+.grid-item-horiseon {
+        border: 3px solid #39a6b2;
+        background-image: url("../images/horiseon.jpg");
+        background-size: cover;
+        grid-column: span 4;
+    }
 .main-grid-item button {
         color: #3A3D46;
         background-color: #39a6b2;
@@ -175,10 +182,10 @@ header nav ul li a {
 /*styles to <contact-info> start*/
 .contact h2 {
     color: #3A3D46;
-    text-align: left;
+    text-align: right;
     font-size: 45px;
     margin-bottom: 35px;
-    padding: 25px 25px 25px 47px;
+    padding: 0px 25px 25px 10px;
     border-right: 3px solid;
     float:left;
     border-color: #3A3D46;
@@ -197,6 +204,8 @@ header nav ul li a {
 .contact-info ul li {
         display: inline;
     }
+
+
 /*styles to <contact-info> end*/
 
 

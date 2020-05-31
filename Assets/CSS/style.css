@@ -50,7 +50,7 @@ header nav ul li a {
         color: #39a6b2;
         margin: 0 15px;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 17px;
     }
 /* styles to <header> end*/
 
@@ -83,6 +83,12 @@ header nav ul li a {
         margin: 0px 20px 0px 0px;
     }
 /*styles to <hero> end*/
+
+/*styles to <background> start*/
+.background {
+        background: #c7d5d6
+    }
+/*styles to <background> end*/
 
 /*styles to <bio> start*/
 .bio h2 {
@@ -119,9 +125,26 @@ header nav ul li a {
         line-height: 1.2;
     }
 
+.grid {
+        display:grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-auto-rows: minmax(150px,1fr);
+        grid-gap:10px;
+    }
+
+.main-grid-item {
+        border: 3px solid #39a6b2;
+        grid-column:span 8;
+        grid-row: span 2;
+    }
+.grid-item{
+        grid-column: span 4;
+        border: 3px solid #39a6b2;
+    }
+
 /*styles to <work> ends*/
 
-/*Contact Info Start*/
+/*styles to <contact-info> start*/
 
 .contact-info ul li a {
         text-decoration: none;
@@ -129,10 +152,12 @@ header nav ul li a {
         margin: 0 15px;
         font-weight: bold;
         font-size: 15px;
+        display: inline;
     }
 
 .contact-info ul li {
         display: inline;
     }
+/*styles to <contact-info> end*/
 
 

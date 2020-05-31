@@ -13,12 +13,20 @@ body {
 header {
         padding: 15px 20px;
         background-color: #3A3D46;
-        height: 90px
+        height: 90px;
+        position: relative;
     }
 header h1 a {
         font-weight: bold;
         font-size: 36px;
-        color: #39a6b2;
+        background-color: #39a6b2;
+        padding: 10px;
+        justify-content: center;
+        width: 300px;
+        color: #3A3D46;
+        text align: center;
+        height: 40px;
+        position: absolute;
     }
 
 header h1 {
@@ -29,11 +37,12 @@ header h1 {
     }
 
 header nav ul li a {
+        margin: 30px 30px;
         text-decoration: none;
         color: #39a6b2;
         margin: 0 15px;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 20px;
     }
 
 header nav {
@@ -45,8 +54,38 @@ header nav ul li {
     }
 /* styles to <header> end*/
 
+/*styles to <hero> start*/
+
+.hero {
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    height:300px;
+    position: relative;
+  }
+
+.hero-subtitle {
+    background-color: #3A3D46;
+    padding: 10px;
+    justify-content: center;
+    width: 300px;
+    color: #39a6b2;
+    text align: center;
+    height: 20px;
+    position: absolute;
+    bottom: 15px;
+    right: 0px;
+    margin: 0px 20px 0px 0px;
+  }
 
 
+
+/*styles to >hero> end*/
 
 
 /*Contact Info Start*/

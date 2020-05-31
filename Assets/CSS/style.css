@@ -7,8 +7,7 @@ body {
         margin: 0;
         padding: 0;
     }
-      
-  
+
 /* apply styles to <header> */
 header {
         padding: 15px 20px;
@@ -24,7 +23,7 @@ header h1 a {
         justify-content: center;
         width: 300px;
         color: #3A3D46;
-        text align: center;
+        text-align: center;
         height: 40px;
         position: absolute;
     }
@@ -57,47 +56,70 @@ header nav ul li {
 /*styles to <hero> start*/
 
 .hero {
-    background-image: url("../images/hero.jpg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-attachment: fixed;
-    background-position: 80%;
-    height:300px;
-    position: relative;
-  }
+        background-image: url("../images/hero.jpg");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-attachment: fixed;
+        background-position: 80%;
+        height:300px;
+        position: relative;
+    }   
 
-.hero-subtitle {
-    background-color: #3A3D46;
-    padding: 10px;
-    justify-content: center;
-    width: 300px;
-    color: #39a6b2;
-    text align: center;
-    height: 20px;
-    position: absolute;
-    bottom: 15px;
-    right: 0px;
-    margin: 0px 20px 0px 0px;
-  }
+    .hero-subtitle {
+        background-color: #3A3D46;
+        padding: 10px;
+        justify-content: center;
+        width: 300px;
+        color: #39a6b2;
+        text-align: center;
+        height: 20px;
+        position: absolute;
+        bottom: 15px;
+        right: 0px;
+        margin: 0px 20px 0px 0px;
+    }
+/*styles to <hero> end*/
 
+/*styles to <bio> start*/
+.bio h2 {
+        color: #3A3D46;
+        text-align: left;
+        font-size: 55px;
+        margin-bottom: 35px;
+        padding: 25px 25px 25px 25px;
+        border-right: 3px solid;
+        float:left;
+        border-color: #3A3D46;
+        line-height: 1.2;
+        
+    }
 
+.bio p {
+        color: #3A3D46;
+        text-align: left;
+        width: 80%;
+        font-size: 15px;
+        padding: 20px 0px 0px 35px;
+    }
+/*styles to <bio> end*/
 
-/*styles to >hero> end*/
 
 
 /*Contact Info Start*/
 
 .contact-info ul li a {
-    text-decoration: none;
-    color: #39a6b2;
-    margin: 0 15px;
-    font-weight: bold;
-    font-size: 15px;
-}
+        text-decoration: none;
+        color: #39a6b2;
+        margin: 0 15px;
+        font-weight: bold;
+        font-size: 15px;
+    }
 
 .contact-info ul li {
-    display: inline;
-}
+        display: inline;
+    }
+
+

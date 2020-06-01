@@ -1,6 +1,7 @@
 body {
         color: #39a6b2;
         font-family: Helvetica, Arial, sans-serif;
+        box-sizing: border-box;
     }
 
 * {
@@ -48,7 +49,7 @@ header nav ul li a {
         margin: 30px 30px;
         text-decoration: none;
         color: #39a6b2;
-        margin: 0 15px;
+        margin: 0 30px;
         font-weight: bold;
         font-size: 17px;
     }
@@ -58,29 +59,29 @@ header nav ul li a {
 
 .hero {
         background-image: url("../images/hero.jpg");
-        background-size: cover;
+        background-size: 1050px;
         background-position: center;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        background-attachment: fixed;
-        background-position: 80%;
         height:300px;
         position: relative;
-    }   
+        width:100%;
+    }
 
-    .hero-subtitle {
+.hero-subtitle {
         background-color: #3A3D46;
-        padding: 10px;
+        padding: 10px 10px 20px 10px;
         justify-content: center;
-        width: 250px;
+        width: 350px;
         color: #39a6b2;
         text-align: center;
         height: 20px;
         position: absolute;
         bottom: 15px;
         right: 0px;
-        margin: 0px 20px 0px 0px;
+        margin: 0px 60px 0px 0px;
+        font-size: 18px;
     }
 /*styles to <hero> end*/
 
@@ -148,19 +149,40 @@ header nav ul li a {
         background-size: cover;
     }
 
-.grid-item-horiseon {
-        border: 3px solid #39a6b2;
-        background-image: url("../images/horiseon.jpg");
-        background-size: cover;
-        grid-column: span 4;
-    }
 .main-grid-item button {
         color: #3A3D46;
         background-color: #39a6b2;
         border: solid;
         padding: 10px 20px;
         font-size: 16px;
+        bottom: 20px;
+        margin-top: 220px;
     }
+
+.main-grid-item:hover{
+    transition: 0.6s
+}
+
+.grid-item-horiseon {
+        border: 3px solid #39a6b2;
+        background-image: url("../images/horiseon.jpg");
+        background-size: cover;
+        grid-column: span 4;
+    }
+
+.grid-item-horiseon button{
+        color: #3A3D46;
+        background-color: #39a6b2;
+        border: solid;
+        padding: 10px 20px;
+        font-size: 16px;
+        bottom: 50px; 
+        margin-top: 65px;
+    }
+
+.technologies {
+        font-size: 10px;
+}
 
 .grid-item{
         grid-column: span 4;
@@ -170,13 +192,19 @@ header nav ul li a {
         justify-content: center;
     }
 
-.grid-item img {
+.main.grid-item {
         object-fit: cover;
         height: 100%;
         max-width: 100%;
         max-height: 100%;   
         display: block;
+        transition: .2s;
     }
+
+.main-grid-item:hover {
+        transform: scale(1,1)
+
+}
 /*styles to <work> ends*/
 
 /*styles to <contact-info> start*/
@@ -205,3 +233,62 @@ header nav ul li a {
     }
     
 /*styles to <contact-info> end*
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative
+    }
+
+header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+header nav ul li a {
+        font-size: 20px;
+    }
+    }
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+header h1 a {
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px;
+        justify-content: center;
+        width: 400px;
+        color: #3A3D46;
+        text-align: right;
+        height: 34px;
+        position: absolute;
+    }
+
+    header h1 a {
+        font-weight: bold;
+        font-size: 45px;
+        background-color: #39a6b2;
+        padding: 10px;
+        justify-content: center;
+        width: 400px;
+        color: #3A3D46;
+        text-align: right;
+        height: 34px;
+        position: absolute;
+    }
+
+    }
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+    }

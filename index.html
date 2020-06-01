@@ -2,14 +2,15 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>Lernantino</title>
+        <title>My Portfolio: Lizette Leon</title>
         <link rel="stylesheet" href="./assets/css/style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
 
 <!--Navigation-->
     <header>
         <h1>
-            <a href="/">Lernantino</a>
+            <a href="/">Lizette Leon</a>
         </h1>
         <nav>
             <!-- Unordered list element -->
@@ -20,7 +21,7 @@
                     <a href="#about-me"><u>About Me</u></a>
                 </li>
                 <li>
-                    <a href="#work"><u>Work</u></a>
+                    <a href="#previous-work"><u>Work</u></a>
                 </li>
                 <li>
                     <a href="#contact-me"><u>Contact Me</u></a>
@@ -34,14 +35,14 @@
 
     <!--hero/jumbotron-->
     <section class="hero">
-        <div class="hero-subtitle">
-            <h3>
-                Cool subtitle here!
-            </h3>
-        </div>
+            <div class="hero-subtitle">
+                <h3>
+                    Looking for New Opportunities!
+                </h3>
+            </div>
     </section>
 
-    <section class="background">
+    <section class="background" id="about-me">
         <!--About Me-->
         <section class="bio">
             <h2>
@@ -67,25 +68,37 @@
     <br><br><br>
 
     <!--Work-->
-    <section class="work">
+    <section class="work" id="previous-work">
         <h2>
             Work
         </h2>
             <section class="grid">
                 <div class="main-grid-item">
-                    <a href="https://lizetteleon14.github.io/run-buddy-/" alt="The URL of the deployed application">Run Buddy</a>
+                    <button type="select">
+                        <a href="https://lizetteleon14.github.io/run-buddy-/" alt="The URL of the deployed application"><strong>Run Buddy</strong></a>
+                        <br><br>
+                            <div class="technologies">
+                                HTML/CSS
+                            </div>
+                    </button>
                 </div>
                 <div class="grid-item-horiseon">
-                    <a href="https://lizetteleon14.github.io/Horiseon/" alt="The URL of the deployed application">Horiseon</a>
+                    <button type="select">
+                        <a href="https://lizetteleon14.github.io/Horiseon/" alt="The URL of the deployed application"><strong>Horiseon</strong></a>
+                        <br><br>
+                            <div class="technologies">
+                                HTML/CSS
+                            </div>
+                    </button>
                 </div>
                 <div class="grid-item">
-                    <img src="https://via.placeholder.com/400x150" alt="placeholder">
+                    <img src="https://via.placeholder.com/350x150" alt="placeholder">
                 </div>
                 <div class="grid-item">
-                    <img src="https://via.placeholder.com/400x150" alt="placeholder">
+                    <img src="https://via.placeholder.com/350x150" alt="placeholder">
                 </div>
                 <div class="grid-item">
-                    <img src="https://via.placeholder.com/400x150" alt="placeholder">
+                    <img src="https://via.placeholder.com/350x150" alt="placeholder">
                 </div>
             </section>
     </section>
@@ -93,7 +106,7 @@
     <br><br><br><br><br>
 
     <!--Contact Me-->
-    <section class="contact">
+    <section class="contact" id="contact-me">
         <h2>
             Contact 
             <br>

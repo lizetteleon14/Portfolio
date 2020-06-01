@@ -256,10 +256,52 @@ header nav ul {
 header nav ul li a {
         font-size: 20px;
     }
+
+.work h2 {
+        color: #3A3D46;
+        text-align: left;
+        font-size: 45px;
+        margin-bottom: 35px;
+        padding: 0px 50px 25px 42px;
+        border-right: 3px solid;
+        float: left;
+        border-color: #3A3D46;
+        line-height: 21.5;
     }
+
+.grid-item {
+        grid-column: span 8;
+        border: 3px solid #39a6b2;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        width: 100%;
+    }
+
+.grid-item-horiseon {
+        border: 3px solid #39a6b2;
+        background-image: url("../images/horiseon.jpg");
+        background-size: cover;
+        grid-column: span 8;
+    }
+
+.grid-container {
+        display:grid;
+        color: #3A3D46;
+        grid-gap: 105px;
+    }
+
+.background {
+        background: #c7d5d6;
+        height: 1500px;
+    }
+}
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
+* {
+    margin: 0;
+}
 
 header h1 a {
         font-weight: bold;
@@ -273,18 +315,7 @@ header h1 a {
         position: absolute;
     }
 
-    header h1 a {
-        font-weight: bold;
-        font-size: 45px;
-        background-color: #39a6b2;
-        padding: 10px;
-        justify-content: center;
-        width: 400px;
-        color: #3A3D46;
-        text-align: right;
-        height: 34px;
-        position: absolute;
-    }
+
 
     }
 

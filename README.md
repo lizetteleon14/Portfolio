@@ -15,21 +15,26 @@ This is a portfolio that showcases my strongest work.
             <p>
                 This is a portfolio that contains my previous work
             </p>
+        <h2>
+            Technologies Used:
+        </h2>   
+            <p>
+                CSS and HTML
+            </p>
     <header>
     <section>
       <img src="./assets/images/screenshot1.jpg">
       <img src="./assets/images/screenshot2.jpg">
-      <img src="./assets/images/screenshot3.jpg">
     </section>
     <section>
         <p>
             The URL of the deployed application
-            <a href="https://lizetteleon14.github.io/Horiseon">The URL of the deployed application</a>
+            <a href="https://lizetteleon14.github.io/Portfolio/">The URL of the deployed application</a>
         </p>
     </section>
     <section>
         <p>
             The URL of the GitHub repository 
-            <a href="https://github.com/lizetteleon14/Horiseon">The URL of the Git</a>
+            <a href="https://github.com/lizetteleon14/Portfolio">The URL of the Git</a>
         </p>
     </section>

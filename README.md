@@ -5,8 +5,7 @@ This is a portfolio that showcases my strongest work.
 
 <html lang="en-us">
     <head>
-        <meta charset="UTF-8" />
-        <title>My Portfolio</title>
+        <meta charset="UTF-8"/>
     </head>
     <header>
         <h2>

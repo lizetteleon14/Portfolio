@@ -180,6 +180,23 @@ header nav ul li a {
         margin-top: 65px;
     }
 
+.grid-item-wine-and-dine {
+        border: 3px solid #39a6b2;
+        background-image: url("../images/wineanddine.png");
+        background-size: cover;
+        grid-column: span 4;
+    }
+
+.grid-item-wine-and-dine button{
+        color: #3A3D46;
+        background-color: #39a6b2;
+        border: solid;
+        padding: 10px 20px;
+        font-size: 16px;
+        bottom: 50px; 
+        margin-top: 65px;
+    }
+
 .technologies {
         font-size: 10px;
 }
@@ -281,6 +298,13 @@ header nav ul li a {
 .grid-item-horiseon {
         border: 3px solid #39a6b2;
         background-image: url("../images/horiseon.jpg");
+        background-size: cover;
+        grid-column: span 8;
+    }
+
+.grid-item-wine-and-dine {
+        border: 3px solid #39a6b2;
+        background-image: url("../images/wineanddine.png");
         background-size: cover;
         grid-column: span 8;
     }

@@ -182,7 +182,7 @@ header nav ul li a {
 
 .grid-item-wine-and-dine {
         border: 3px solid #39a6b2;
-        background-image: url("../images/wineanddine.png");
+        background-image: url("../images/wineanddine.jpg");
         background-size: cover;
         grid-column: span 4;
     }
